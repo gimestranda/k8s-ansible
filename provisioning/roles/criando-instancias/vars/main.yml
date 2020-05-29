@@ -1,0 +1,10 @@
+---
+# vars file for criando-instancias
+
+instance_type: t2.medium
+sec_group_name: giropops
+image: ami-0b418580298265d5c
+region: eu-central-1
+keypair:
+count: 3
+profile: default
